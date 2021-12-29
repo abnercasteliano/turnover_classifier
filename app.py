@@ -48,11 +48,11 @@ kmeans_colors = ['green' if c == 0 else 'red' if c == 1 else 'blue' for c in mod
 st.sidebar.subheader("Defina os atributos do empregado para predição de turnover")
 
 # mapeando dados do usuário para cada atributo
-satisfaction = st.sidebar.number_input("satisfaction", value=dataset["satisfaction"].mean())
-evaluation = st.sidebar.number_input("evaluation", value=dataset["evaluation"].mean())
-averageMonthlyHours = st.sidebar.number_input("averageMonthlyHours", value=dataset["averageMonthlyHours"].mean())
-projectCount = st.sidebar.number_input("projectCount", value=dataset["projectCount"].mean())
-yearsAtCompany = st.sidebar.number_input("yearsAtCompany", value=dataset["yearsAtCompany"].mean())
+satisfaction = st.sidebar.number_input("Nota de satisfação", value=0.00, step=0.10, format="%.2f")
+evaluation = st.sidebar.number_input("Nota de avaliação", value=0.00, step=0.01, format="%.2f")
+averageMonthlyHours = st.sidebar.number_input("Média de trabalho mensal", value=0, step=1)
+projectCount = st.sidebar.number_input("Número de projetos", value=0, step=1)
+yearsAtCompany = st.sidebar.number_input("Anos de carreira", value=0, step=1)
 
 # inserindo um botão na tela
 btn_predict = st.sidebar.button("Realizar Classificação")
