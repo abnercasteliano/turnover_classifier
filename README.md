@@ -53,10 +53,10 @@ Visão geral do Pipeline:
 Após a coleta dos dados foi feita a **Análise Exploratória dos Dados**, para resolver as principais dúvidas da empresa. Foram utilizadas técnicas de análise descritiva, análise univariáda e análise bivariada, para analisar variáveis categóricas e numéricas.
 
 * **Insights principais:**
-  * Colaboradores com até 2 anos de empresa tedem a permanecer nela..
-  * Colaboradores com notas medianas (entre 60 e 80), tendem a permanecer na empresa.**
-  * Porque colaboradores com satisfação baixa (0 a 20) e (20 a 50) deixam a empresa?(experiência ruim, salário, falta de crescimento, ambiênte)..**
-  * Porque pessoas que recebem um aumento muito grande na avaliação tendem a deixar a empresa?**
+  * **Colaboradores com até 2 anos de empresa tedem a permanecer nela.**
+  * **Colaboradores com notas medianas (entre 60 e 80), tendem a permanecer na empresa.**
+  * **Porque colaboradores com satisfação baixa (0 a 20) e (20 a 50) deixam a empresa?(experiência ruim, salário, falta de crescimento, ambiênte)**
+  * **Porque pessoas que recebem um aumento muito grande na avaliação tendem a deixar a empresa?**
 
 ### Machine Learning
 
